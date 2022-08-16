@@ -1,0 +1,187 @@
+*{
+    margin: 10px;
+    padding: 0;
+    outline: 0;
+
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-items{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+    color: #21327c;
+}
+nav button{
+    background-image: linear-gradient(to right, rgb(139, 43, 202), rgb(255, 34, 200));
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 120px;
+    font-family: Roboto,sans-serif;
+}
+/* left side  */
+.imgs-div img:nth-child(3){
+    position: absolute;
+    /* background-color: rgb(36, 71, 71); */
+    margin-left: 410px;
+    margin-top: -15px;
+}
+.imgs-div img:nth-child(1){
+    /* background-color: aqua; */
+    position: absolute;
+    top: 91vh;
+    left: 68vh;
+}
+.imgs-div img:nth-child(2){
+    /* background-color: aqua; */
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+/* right side */
+ h1 {
+    color: #21327c;
+    font-size: 75px;
+    margin-top: 20vh;
+    position: absolute;
+    font-family: Roboto,sans-serif;
+}
+ h4{
+    color: rgb(135, 145, 135);
+    position: absolute;
+    height: 150px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 270px;
+    font-family: Roboto,sans-serif;
+}
+.intro-section .left-section button{
+    background-image: linear-gradient(to right, rgb(139, 43, 202), rgb(255, 34, 200));
+    color: #fff;
+    margin-top: 450px;
+    position: absolute;
+    left: 110px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    border: hidden;
+    font-family: Roboto,sans-serif;
+
+}
+body .bgcover img {
+    /* background-color: aqua; */
+    position: absolute;
+    top: -9px;
+   width: 140vh;
+    z-index: -1;
+    margin-left: 385px;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* ==============================media query =================================*/
+@media screen and (max-width:783px) {
+    h1{
+       
+        font-size: 40px;
+       }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 10px;
+    }
+    img{
+        width: 300px;
+       
+       
+    }
+    .intro-section .left-section button{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    body .bgcover img {
+        width: 77vh;
+    }
+    .imgs-div img:nth-child(3){
+       
+       
+        margin-left: 380px;
+       
+    }
+   
+    .imgs-div img:nth-child(1){
+      
+      
+        top: 51vh;
+        width: 200px;
+        left: 68vh;
+    }
+    .imgs-div img:nth-child(2){
+      
+       
+        top: 400px;
+        width: 200px;
+        left: 400px;
+    }
+
+}
+
+/* -------------------for phone------------ */
+@media screen and (max-width:630px) {
+    h1{
+       
+        font-size: 20px;
+       }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        display: none;
+    }
+    img{
+        width: 200px;
+       
+       
+    }
+   nav img{
+    width: 100px;
+   }
+    .intro-section .left-section button{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    body .bgcover img {
+        width: 57vh;
+        margin-left: 250px;
+    }
+    .imgs-div img:nth-child(3){
+       
+       
+        margin-left: 280px;
+       
+    }
+   
+    .imgs-div img:nth-child(1){
+      
+      
+        top: 51vh;
+        width: 200px;
+        left: 68vh;
+    }
+    .imgs-div img:nth-child(2){
+      
+       
+        top: 400px;
+        width: 200px;
+        left: 400px;
+    }
+
+}
